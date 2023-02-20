@@ -1,9 +1,9 @@
 import React from 'react';
-import { Nav } from './Components/Layout/Nav/Nav';
+import { Home } from './Modules/Home/Home';
 
 function App() {
   return (
-    <Nav/>
+    <Home/>
   );
 }
 
