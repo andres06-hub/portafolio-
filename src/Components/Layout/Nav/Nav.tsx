@@ -1,4 +1,8 @@
-import './Nav.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faGift } from '@fortawesome/free-solid-svg-icons';
+import {  } from '@fortawesome/free-regular-svg-icons';
+
+import './Nav.css';
 
 export const Nav = () => {
   return (
@@ -11,12 +15,19 @@ export const Nav = () => {
         <div>
           <ul className='links'>
             <li>
-              <a href="www.linkedin.com/in/andressierrarojas/">
-                <img src="" alt="" />
-              </a>
+              {/* <a href="https://www.linkedin.com/in/andressierrarojas/" target="_blank">
+                <FontAwesomeIcon icon={faLink} />
+              </a> */}
+              <span className='icon'><i></i></span>
+              <span className='title'>Linkedin</span>
             </li>
-            <li>Products</li>
-            <li>Lorem</li>
+            <li>
+              {/* <a href="https://www.linkedin.com/in/andressierrarojas/" target="_blank">
+                <FontAwesomeIcon icon={faLink} />
+              </a> */}
+              <span className='icon'><i></i></span>
+              <span className='title'>GitHub</span>
+            </li>
           </ul>
         </div>
       </section>
