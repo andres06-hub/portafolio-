@@ -44,8 +44,8 @@ export const Header = () => {
       </nav>
       <article className='descrip-container'>
         <div className='descrip-content'>
-          <h2 className='descrip-title'>Andres Felipe Sierra Rojas</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi quos corrupti non necessitatibus blanditiis harum quidem nesciunt quibusdam suscipit iste id aperiam illo veniam magni quaerat, ea cupiditate repudiandae repellendus.</p>
+          <h2 className='descrip-title'>Software Developer</h2>
+          {/* <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi quos corrupti non necessitatibus blanditiis harum quidem nesciunt quibusdam suscipit iste id aperiam illo veniam magni quaerat, ea cupiditate repudiandae repellendus.</p> */}
         </div>
       </article>
       <section className='me-container'>
